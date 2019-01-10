@@ -31,6 +31,12 @@ class CardListBloc {
 		_cardsCollection.sink.add(_cardResults);
 	}
 
+	// Add card to list
+	void addCardToList(CardResults card) {
+		_cardResults.add(card);
+		_cardsCollection.sink.add(_cardResults);
+	}
+
 	void dispose() {
 		_cardsCollection.close();
 	}

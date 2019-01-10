@@ -4,7 +4,7 @@ class CardChip extends StatelessWidget {
 	@override
 	Widget build(BuildContext context) {
 		return Padding(
-			padding: EdgeInsets.only(top: 10.0),
+			padding: EdgeInsets.only(top: 5.0),
 			child: Row(
 				mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 				children: <Widget>[

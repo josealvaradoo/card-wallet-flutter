@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './widgets//navbar.dart';
 import './widgets/buttons/button.dart';
+import './card_create.dart';
 
 class CardType extends StatelessWidget {
 	@override
@@ -44,6 +45,7 @@ class CardType extends StatelessWidget {
 							color: Colors.lightBlue,
 							text: 'Credit Card',
 							textColor: Colors.white,
+							redirect: CardCreate(),
 						),
 						Button(
 							color: Colors.grey[100],

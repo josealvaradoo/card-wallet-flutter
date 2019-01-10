@@ -30,6 +30,6 @@ class CardLogo extends StatelessWidget {
 					),
 				),
 			],
-		);;
+		);
 	}
 }
